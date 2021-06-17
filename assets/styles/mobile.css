@@ -1,0 +1,29 @@
+@media (max-width: 415px) {	
+	.menu, .header, .table__tracks, .player, .slider__button {
+		display: none;
+	}
+
+	.content {
+		margin: 0;
+	}
+	
+	.button__wrapper {
+		margin-bottom: 0;
+	}
+
+	.button__wrapper {
+		margin: 26px 0;
+	}
+
+	.slider-content__wrapper {
+		height: 184px;
+
+	}
+
+	.menu_mobile {
+		display: block;
+	}
+
+	.table__tracks__mobile {
+		display: inline-table;
+}

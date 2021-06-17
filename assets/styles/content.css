@@ -1,0 +1,285 @@
+.content {
+	margin-left: 172px; 
+}
+
+/* HEADER-START */
+.header__search {
+	float: left;
+	border: none;
+	min-height: 66%;
+	padding: 22px 0 0 40px;
+	color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header__search::placeholder {
+	font-size: 12px;
+	color: black;
+	opacity: 0.5;
+}
+
+input[type="search"] {
+	background: url("../img/serch.svg") 5% 100% no-repeat;
+	
+}
+
+.header__nav {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.header__button {
+	border: none;
+	outline: none;
+	display: inline-block;
+	width: 87px;
+	background-color: white;
+	padding: 30px 0;
+	border-left: 1px solid #eee;
+	cursor: pointer;
+}
+
+.tv, .radio, .bell {
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position: center; 
+}
+
+.tv {
+	background-image: url(../img/tv.svg);
+}
+
+.radio {
+	background-image: url(../img/radio.svg);
+}
+
+.bell {
+	background-image: url(../img/bell.svg);
+	border-right: 1px solid #eee;
+}
+
+.profile, .profile__name-wrapper {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.profile {
+	margin: 15px 110px 0 23px;
+	cursor: pointer;
+}
+
+.profile__avatar {
+	width: 34px;
+}
+
+.profile__name {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.profile__img {
+	float: left;
+	margin: 2px;
+}
+
+.profile__status {
+	color: #3E2AD1;
+	font-size: 10px;
+}
+/* HEADER-END */
+
+/* SLIDER-START*/
+.slider {
+	background: url(../img/slider.png) center/cover no-repeat;
+}
+
+.slider-content__wrapper {
+	padding: 92px 0 0 53px;
+	color: white;
+	width: 260px;
+}
+
+.menu_mobile {
+	display: none;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 25px 0 0 25px;
+}
+
+.slider-content__wrapper .trending {
+	font-size: 10px;
+}
+
+.slider-content__wrapper h1 {
+	font-size: 28px;
+}
+
+.slider-content__wrapper span {
+	font-size: 16px;
+}
+
+.button__wrapper {
+	margin: 46px 0;
+}
+
+.play {
+	color: #E6152B;
+	height: 22px;
+	width: 62px;
+	font-size: 10px;
+	box-shadow: 0px 2px 8px #BC1428;
+	border: none;
+	border-radius: 3px;
+	font-family: 'Source Sans Pro', sans-serif;
+	cursor: pointer;
+}
+
+.play__icon {
+	vertical-align: middle;
+	padding-left: 4px;
+}
+
+.share {
+	background: url(../img/share.png) center no-repeat, white;
+	height: 22px;
+	width: 24px;
+	box-shadow: 0px 2px 8px #BC1428;
+	border: none;
+	border-radius: 3px;
+	vertical-align: bottom;
+	cursor: pointer;
+}
+
+.slider__button {
+	text-align: center;
+	padding-bottom: 10px;
+}
+/*SLIDER-END*/
+
+/*MAIN-CONTENT-START*/
+.tracks {
+	padding: 23px 0 0 23px;
+	background: linear-gradient(180deg, rgba(244, 249, 255, 0.0001) 0%, #F4F9FF 26.23%);
+}
+
+.tracks h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+
+.albums__wrapper {
+	margin-right: 20px;
+}
+
+.albums {
+	display: flex;
+	overflow: scroll;
+}
+
+.albums::-webkit-scrollbar {
+    display: none;
+}
+
+.albums img {
+	width: 112px;
+	height: 112px;
+}
+
+.albums__wrapper h5 {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.albums__wrapper span {
+	font-size: 10px;
+	opacity: 0.48;
+}
+
+.top_tracks {
+	margin-top: 23px;
+}
+
+.table__tracks {
+	width: 100%;
+	height: 35vh;
+	font-size: 12px;
+}
+
+.table__tracks img {
+	cursor: pointer;
+}
+
+.table__tracks td {
+	opacity: 0.5;
+}
+
+.table__tracks th {
+	font-weight: bold;
+}
+
+.table__playing__tracks {
+	background-color: white;
+	box-shadow: 0px 0px 10px -6px black	;
+}
+
+.table__tracks__mobile {
+	display: none;
+	width: 100%;
+}
+
+.table__tracks__mobile .singer {
+	font-size: 12px;
+}
+
+.table__tracks__mobile .song {
+	font-size: 14px;
+	font-weight: bold;
+}
+/*MAIN-CONTENT-END*/
+
+/*PLAYER-START*/
+.player {
+	background-color: #0F1E36;
+	position: sticky;
+	bottom: 0;
+	width: 100%;
+	height: 62px;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player p {
+	color: white;
+	font-size: 10px;
+	opacity: 0.5;
+}
+
+.player div {
+	cursor: pointer;
+}
+
+.player__duration {
+	height: 4px;
+	width: 220px;
+	background: linear-gradient(to right, red 0%, red 80%,#000000 50%,white 50%,white 100%)
+}
+
+.ellipse {
+	background-image: url(../img/player/Ellipse.png);
+	width: 36px;
+    height: 36px;
+}
+
+.frontward {
+	transform: scale(-1, 1)
+}
+
+/*PLAYER-END*/
